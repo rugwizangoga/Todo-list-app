@@ -94,7 +94,7 @@ you can watch this [video](https://www.youtube.com/watch?v=AcUd-_Yjjqg) for furt
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://rugwizangoga.github.io/Todo-list-app/)
+- [Live Demo Link](https://rugwizangoga.github.io/Todo-list-app/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
