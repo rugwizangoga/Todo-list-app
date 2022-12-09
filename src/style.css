@@ -4,6 +4,7 @@
   margin: 0;
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
 }
 
 main {
@@ -15,8 +16,8 @@ main {
 
 img {
   max-width: 100%;
-  width: 17px;
-  height: 17px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
 }
 
@@ -45,7 +46,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
 }
 
 .item {
@@ -54,7 +55,7 @@ img {
 }
 
 .first {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 700;
 }
 
