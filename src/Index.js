@@ -2,8 +2,9 @@ import './style.css';
 import sync from './assets/images/sync.png';
 import enter from './assets/images/subdirectory_arrow_left.png';
 import {
-  printtasks, addtask, deleteTask, edittask,
+  printtasks, addtask, deleteTask, edittask, deletecompleted,
 } from './CRUD.js';
+import isComplete from './status update.js';
 
 const title = document.getElementById('title');
 const addInput = document.getElementById('add');
@@ -31,5 +32,12 @@ document.addEventListener('click', (e) => {
   }
   if (e.target.matches('.more')) {
     edittask(id);
+  }
+
+  if (e.target.matches('.check')) {
+    isComplete(id);
+  }
+  if (e.target.matches('.all')) {
+    deletecompleted();
   }
 });
