@@ -30,6 +30,11 @@ const printtask = (task) => {
 };
 
 const printtasks = () => {
+  [...List.children].forEach((child) => {
+    if (child.querySelector('.more')) {
+      List.removeChild(child);
+    }
+  });
   if (window.localStorage.getItem('tasks') !== null) {
     const tasks = JSON.parse(window.localStorage.getItem('tasks'));
     Taskslist = tasks;
@@ -84,6 +89,20 @@ const edittask = (id) => {
   }));
 };
 
+const deletecompleted = () => {
+  const tasky = JSON.parse(window.localStorage.getItem('tasks'));
+  Taskslist = tasky;
+  Taskslist = Taskslist.filter((b) => b.completed !== true);
+  let newind = 1;
+  Taskslist.forEach((task) => {
+    task.index = newind;
+    newind += 1;
+  });
+  window.localStorage.setItem('tasks', JSON.stringify(Taskslist));
+  PostionToInsert = 2;
+  printtasks();
+};
+
 export {
-  printtasks, addtask, deleteTask, edittask,
+  printtasks, addtask, deleteTask, edittask, deletecompleted,
 };
