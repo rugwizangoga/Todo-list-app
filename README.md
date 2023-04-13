@@ -1,36 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-
-  <img src="./images/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -54,7 +23,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Todo list App] <a name="about-project"></a>
 
 
-Todo list App is a simple web app that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete, delete a task or add a new task and you can even clean all of the completed tasks if you want.
+Todo list App is a simple web app that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete, delete/Edit a task or add a new task and you can even clean all of the completed tasks if you want.
 you can watch this [video](https://www.youtube.com/watch?v=AcUd-_Yjjqg) for further demonstration of how the app works
 
 ## 🛠 Built With <a name="built-with"></a>
